@@ -1,0 +1,206 @@
+
+body,h1,h2,h3,h4,h5,h6,a,ul,li,span,p{
+    font-family: 'Montserrat', sans-serif;
+}
+/* headerSection css */
+.headerSection{
+    padding: 90px 0;
+}
+.header-title{
+    
+}
+.header-title h5 {
+    text-transform: uppercase;
+    color: #3763eb;
+    font-weight: 400;
+    font-size: 15px;
+}
+.header-title h2 {
+    margin-top: 15px;
+    margin-bottom: 38px;
+    position: relative;
+    font-weight: 600;
+}
+.header-title h2::after {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    width: 14%;
+    height: 2px;
+    background: #3763eb;
+}
+.header-logo{
+   
+}
+.logo {
+    width: 250px;
+    height: 150px;
+    border: 1px solid #ddd;
+    line-height: 147px;
+    text-align: center;
+    transition: .5s;
+    
+    
+}
+   
+.logo img{
+ 
+    max-width: 100%;
+   
+}
+.logo-2:hover{
+    transform: scale(1.2);
+   
+   
+}
+   /* latest-newsSection css */
+   .latest-newsSection{
+    padding: 50px 0;
+    background:#1111;
+   }
+   .Latest-title{}
+   .Latest-title h6 {
+    text-transform: uppercase;
+    color: #3763eb;
+}
+.Latest-title h2 {
+    margin-top: 20px;
+    position: relative;
+    font-weight: 700;
+}
+.Latest-title h2::after {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: 524px;
+    width: 6%;
+    height: 3px;
+    background: #3763eb;
+}
+.Latest-title p {
+    width: 600px;
+    margin: auto;
+    margin-top: 24px;
+}
+.news-img{}
+.news-img img{
+    max-width: 100%;
+}
+.news-text{
+    position: relative;
+}
+.news-text h5 {
+    position: absolute;
+    right: 14px;
+    top: -82px;
+    background: blue;
+    color: white;
+    display: inline-block;
+    padding: 16px 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding-left: 59px;
+}
+.news-text h5::after {
+    content: "";
+    background-image: url(https://i.ibb.co/KL66fpT/author.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 127px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.news-text h2 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: -28px;
+}
+.news-text p {
+    font-size: 12px;
+    line-height: 1.7em;
+}
+
+/* footerSection css */
+.footerSection{
+    background: #111111;
+    color: white;
+}
+.footer-top{
+    position: relative;
+}
+.footer-top::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 112px;
+    width: 87%;
+    height: 2px;
+    background: #444;
+}
+
+
+.footer-weget img {
+    width: 150px;
+}
+.footer-weget{} ul{
+    list-style: none;
+   padding-left: 0;
+   margin-left: 0;
+}
+
+.footer-weget{} ul li{
+   
+}
+.footer-weget ul li a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 12px;
+}
+.footer-weget h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    position: relative;
+    margin-left: 10px;
+    font-weight: 300;
+}
+.footer-weget h3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -14px;
+    width: 3px;
+    height: 100%;
+    background: blue;
+}
+.footer-weget p {
+    font-size: 15px;
+    margin-top: 35px;
+    line-height: 2;
+}
+
+.socail-weget{}
+.socail-weget ul {
+    display: flex;
+    gap: 50px;
+    margin-top: 25px;
+}
+.socail-weget ul li{}
+.socail-weget ul li a {
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+.footer-copyright p {
+    margin-bottom: 0;
+    font-weight: 200;
+}
